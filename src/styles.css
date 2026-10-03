@@ -19,4 +19,3 @@ body { margin: 0; background: var(--bg); }
   padding: 16px; text-align: center;
 }
 .placeholder h1 { font-size: clamp(28px, 6vw, 56px); letter-spacing: .04em; margin: 0 0 8px; }
-.placeholder p { color: var(--muted); margin: 0; }
