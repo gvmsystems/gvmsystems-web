@@ -1,0 +1,22 @@
+{
+  "name": "gvmsystems-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Site de prezentare GVM SYSTEMS SRL",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && wrangler pages deploy --branch main"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.2",
+    "wrangler": "^4.147.0"
+  }
+}
